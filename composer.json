@@ -1,0 +1,22 @@
+{
+    "name": "slurs1nt6n6/slur",
+    "description": "asd",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "danil"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+
+}
